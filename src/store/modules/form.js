@@ -1,5 +1,17 @@
 const state = {
-  formList: [],
+  formList: [{
+    id: 1234567890,
+    type: 'baseWidget',
+    select: true,
+    config: {
+      tag: 'inputText',
+    },
+    data: {
+      request: false,
+      label: '单行文本',
+      desc: ''
+    }
+  }],
 }
 
 const mutations = {
